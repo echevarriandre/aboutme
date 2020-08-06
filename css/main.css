@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #de003d;
+    height: 10%;
+}
+
+::selection {
+    color: white;
+    background: #de003d;
+    height: 10px;
+}
+
+html, body {
+    height: 100%;
+}
+
+#right {
+    background-color: black;
+    color: white;
+    width: 35%;
+    height: 100%;
+}
+
+#content {
+
+}
+
+#info {
+    margin-left: 30%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6em;
+    line-height: 0.9em;
+}
+
+.email {
+    color: white;
+}
+.email:hover {
+    color: #de003d;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.tag {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6em;
+}
