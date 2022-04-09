@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply h-full w-full;
+}
+
+/* Code for Firefox */
+::-moz-selection {
+  @apply text-white bg-[#de003d];
+}
+
+::selection {
+  @apply text-white bg-[#de003d];
+}
+
+#app {
+  @apply flex h-full w-full;
+}
